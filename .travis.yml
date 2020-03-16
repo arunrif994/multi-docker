@@ -20,6 +20,7 @@ after_success:
     - docker push arunjoney994/multi-worker
 
 deply:
+    edge: true
     provider: elasticbeanstalk
     region: us-east-2
     app: multi-docker
